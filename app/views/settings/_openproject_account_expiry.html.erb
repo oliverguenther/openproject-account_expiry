@@ -1,0 +1,9 @@
+<h3>Plugin: AccountExpiry</h3>
+
+<p>
+  <label><%= l('plugin.account_expiry.months_until_expiry') %></label>
+	<%=
+		text_field_tag("settings[months_until_expiry]",
+	    Setting.plugin_openproject_account_expiry[:months_until_expiry], size: 60)
+    %>
+</p>

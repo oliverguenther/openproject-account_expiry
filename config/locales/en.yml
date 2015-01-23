@@ -1,0 +1,6 @@
+# German strings go here for Rails i18n
+en:
+  plugin:
+    account_expiry:
+      months_until_expiry: Months until account expires
+      expires_in: Expires on %{expiration_date}

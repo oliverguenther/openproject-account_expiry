@@ -1,0 +1,6 @@
+# German strings go here for Rails i18n
+de:
+  plugin:
+    account_expiry:
+      months_until_expiry: Monate bis zum Ablauf
+      expires_in: Läuft ab am %{expiration_date}
